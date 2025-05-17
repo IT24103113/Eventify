@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>grp-30</groupId>
-    <artifactId>Eventify</artifactId>
+    <artifactId>EnetCapture</artifactId>
     <version>1.0.0</version>
-    <name>Eventify</name>
+    <name>EnetCapture</name>
     <packaging>war</packaging>
 
     <properties>
