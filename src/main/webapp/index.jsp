@@ -101,18 +101,6 @@
 </head>
 <body class="bg-gradient-to-br from-indigo-100 to-fuchsia-100 text-gray-800 min-h-screen">
 
-<!-- DateTime and User Info Bar -->
-<div class="bg-gray-800 text-white py-1 px-4">
-    <div class="container mx-auto flex justify-between items-center text-sm">
-        <div>
-            <i class="bi bi-clock"></i> 2025-05-17 14:41:52 (UTC)
-        </div>
-        <div>
-            <i class="bi bi-person-badge"></i> User: IT24103113
-        </div>
-    </div>
-</div>
-
 <!-- Navigation -->
 <header class="bg-white/90 shadow sticky top-0 z-50">
     <nav class="container mx-auto flex items-center justify-between py-4 px-4">
@@ -840,6 +828,7 @@
 <footer class="bg-gray-900 text-gray-300 py-10">
     <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-4 gap-8 mb-8">
+            <!-- Brand and Description -->
             <div>
                 <h3 class="text-xl font-bold mb-4 text-white">Eventify</h3>
                 <p class="mb-4">Your trusted platform for booking professional photography and videography services for any occasion.</p>
@@ -850,7 +839,50 @@
                     <a href="#" class="text-gray-300 hover:text-white"><i class="bi bi-youtube"></i></a>
                 </div>
             </div>
+            <!-- Services Links -->
             <div>
                 <h4 class="font-semibold mb-4 text-white">Services</h4>
                 <ul class="space-y-2">
-                    <li><a href="photography.jsp" class="text-gray-400 hover:text-white">Photography
+                    <li><a href="photography.jsp" class="text-gray-400 hover:text-white">Photography</a></li>
+                    <li><a href="videography.jsp" class="text-gray-400 hover:text-white">Videography</a></li>
+                    <li><a href="events.jsp" class="text-gray-400 hover:text-white">Events</a></li>
+                    <li><a href="packages.jsp" class="text-gray-400 hover:text-white">Packages</a></li>
+                </ul>
+            </div>
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4 text-white">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="about.jsp" class="text-gray-400 hover:text-white">About Us</a></li>
+                    <li><a href="contact.jsp" class="text-gray-400 hover:text-white">Contact</a></li>
+                    <li><a href="faq.jsp" class="text-gray-400 hover:text-white">FAQ</a></li>
+                    <li><a href="terms.jsp" class="text-gray-400 hover:text-white">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4 text-white">Contact</h4>
+                <ul class="space-y-2">
+                    <li>
+                        <span class="text-gray-400">Email:</span>
+                        <a href="mailto:support@eventify.com" class="text-gray-400 hover:text-white">support@eventify.com</a>
+                    </li>
+                    <li>
+                        <span class="text-gray-400">Phone:</span>
+                        <a href="tel:+94112223344" class="text-gray-400 hover:text-white">+94 112 223 344</a>
+                    </li>
+                    <li>
+                        <span class="text-gray-400">Address:</span>
+                        <span class="text-gray-400">123 Main Street, Colombo, Sri Lanka</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 pt-6 text-center">
+            <p class="text-gray-500 text-sm">&copy; 2025 Eventify. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
